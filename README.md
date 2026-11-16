@@ -44,6 +44,14 @@ Each one is written into one of my repositories as a project rule.
 4. **Estimates are not outcomes.** Trazum keeps projected savings apart from measured ones, and `verify` checks a plan against later usage.
 5. **One owner per fact.** Design tokens, copy, data and secrets each live in exactly one place.
 
+## Contributing upstream
+
+Fixes I send to other people's projects, held to their own review and CI. Merged means it landed; the rest is in review.
+
+- **[REA: Reverse Engineer Anything](https://github.com/morluto/rea)** [![GitHub stars](https://img.shields.io/github/stars/morluto/rea?style=flat&color=gold)](https://github.com/morluto/rea) - Merged: settle a process exit in progress before reporting the process present ([#10620](https://github.com/morluto/rea/pull/10620)), and name Ghidra's declared-seed recovery when no function covers an address ([#10623](https://github.com/morluto/rea/pull/10623)). In review: .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Ghidra, Kuna and Hopper providers, and JavaScript analysis. [All PRs](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3ADavmunrey)
+- **[gstack](https://github.com/garrytan/gstack)** [![GitHub stars](https://img.shields.io/github/stars/garrytan/gstack?style=flat&color=gold)](https://github.com/garrytan/gstack) - Merged: sixteen docs links reach their section again ([#4394](https://github.com/garrytan/gstack/pull/4394)). In review: the docs link check reads code fences as CommonMark does, and gstack-issue-links names the right commit and skips review trailers. [All PRs](https://github.com/garrytan/gstack/pulls?q=is%3Apr+author%3ADavmunrey)
+- **[Univer](https://github.com/dream-num/univer)** [![GitHub stars](https://img.shields.io/github/stars/dream-num/univer?style=flat&color=gold)](https://github.com/dream-num/univer) - In review: Excel compatibility in formulas (UNICODE and UNICHAR above U+FFFF), filters (case and `~` wildcards), number validation, conditional formatting (bottom N, duplicates) and sorting. [All PRs](https://github.com/dream-num/univer/pulls?q=is%3Apr+author%3ADavmunrey)
+
 ## Your door
 
 - **Investing or co-founding:** read the [Zolts plan](https://github.com/Davmunrey/Zolts), then [message me](https://www.linkedin.com/in/davmunrey).
