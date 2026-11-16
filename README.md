@@ -4,65 +4,66 @@
   <img src="assets/scoreboard.svg" width="100%" alt="Scoreboard for MUÑOZ REY, DAVID. Founder-engineer: strategy, product and code, judged by what ships. Six attempts, each judged by three lamps: shipped, tested, public. Two white lamps make a good lift; fewer reads pending, not failed. AEP Tarima: Referee operations, Spanish powerlifting (1,233 tests). Shipped, tested, public source; good lift. Trazum: Open-source AI spend analysis (npm 2.7.7). Shipped, tested, public source; good lift. Propel: AI-native CRM for outbound sales (propeltech.io). Shipped, tested, private source; good lift. Axis: ECG decision-support copilot (12-lead ECG). Not shipped yet, tested, public source; good lift. Zolts: GTM operating system (10 blueprints). Not shipped yet, tested, public source; good lift. Atesta: Audit readiness for ENS and NIS2 (ENS + NIS2). Not shipped yet, tested, private source; pending.">
 </picture>
 
-**[Message me on LinkedIn](https://www.linkedin.com/in/davmunrey)** · [Trazum on npm](https://www.npmjs.com/package/@trazum/cli) · [AEP Tarima, live](https://aep-tarima.vercel.app)
+**Founder-engineer.** Strategy, product and code, judged by what ships.<br>
+[LinkedIn](https://www.linkedin.com/in/davmunrey) · [Trazum on npm](https://www.npmjs.com/package/@trazum/cli) · [AEP Tarima, live](https://aep-tarima.vercel.app)
 
-See where your own agents' money goes. One command, runs locally, no provider key:
+[![upstream merged](https://img.shields.io/github/issues-search?query=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey&label=upstream%20PRs%20merged&color=2ea44f&style=flat-square)](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) [![upstream in review](https://img.shields.io/github/issues-search?query=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey&label=in%20review&color=blue&style=flat-square)](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey)
+
+## Attempts
+
+Lamps, as on a powerlifting platform: **shipped** · **tested** · **public source**. Two white lamps make a good lift.
+
+| | Project | What it does | Status | Stack |
+|---|---|---|---|---|
+| ⚪⚪⚪ | **[AEP Tarima](https://aep-tarima.vercel.app)** | Referee operations for Spanish powerlifting: championships, rosters, payouts, rules, exams | Live · v2.15 · 1,233 tests · [source](https://github.com/Davmunrey/AEP-Referee-APP) | Next.js 15, Supabase Realtime |
+| ⚪⚪⚪ | **[Trazum](https://github.com/Davmunrey/Trazum)** | Prices AI agent and API usage locally, per call; agents ask its MCP `spend_guard` before they spend | `@trazum/cli` 2.7.7 · MIT · zero deps | TypeScript, MCP |
+| ⚪⚪⚫ | **[Propel](https://propeltech.io)** | AI-native CRM for outbound sales: Gmail threads, pipelines, sequences | Live · private repo | |
+| ⚫⚪⚪ | **[Axis](https://github.com/Davmunrey/Heartcheck)** | ECG decision support: photo or 12-lead signal to a structured read | R&D | PyTorch CNN-1D (PTB-XL), FastAPI, Flutter |
+| ⚫⚪⚪ | **[Zolts](https://github.com/Davmunrey/Zolts)** | GTM operating system: signals to decisions, plays and revenue, measured against holdouts | In build · 10 blueprints | Python 3.11, FastAPI, Postgres, Claude agents |
+| ⚫⚪⚫ | **Atesta** | Continuous ENS and NIS2 audit readiness for Spanish SMEs, read-only on Microsoft 365 or Google Workspace | In build · private repo | |
+
+Try one in a minute, locally, no provider key:
 
 ```bash
 npx @trazum/cli bill
 ```
 
-## The attempts
+## Upstream
 
-The scoreboard is borrowed from AEP Tarima: I built the software Spain's powerlifting referees run on. Each lamp is a fact, not a rating. **Shipped:** you can open it today. **Tested:** an automated test suite ships with the code. **Public:** the source is on GitHub; private repositories keep that lamp dark and are described here, not linked. As at a real meet, two white lamps out of three make a good lift; fewer reads pending, not failed.
+Fixes to other people's projects, held to their review and CI.
 
-**[AEP Tarima](https://aep-tarima.vercel.app)** runs referee operations for the Asociación Española de Powerlifting: championships, platform rosters, payouts, rules and exams.<br>
-<sub>Live · v2.15 · 1,233 tests · Next.js 15, Supabase Realtime · [source](https://github.com/Davmunrey/AEP-Referee-APP)</sub>
+| Project | | Merged | In review | Focus |
+|---|---|---|---|---|
+| **[REA](https://github.com/morluto/rea)** | ![stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85&color=gold) | [#10620](https://github.com/morluto/rea/pull/10620) · [#10623](https://github.com/morluto/rea/pull/10623) | [![open](https://img.shields.io/github/issues-search?query=repo%3Amorluto/rea%20is%3Apr%20is%3Aopen%20author%3ADavmunrey&label=open&color=blue&style=flat-square)](https://github.com/search?type=pullrequests&q=repo%3Amorluto/rea%20is%3Apr%20is%3Aopen%20author%3ADavmunrey) | .NET, Apple bundles, NES 2.0, Ghidra, Kuna, Hopper, JavaScript |
+| **[Univer](https://github.com/dream-num/univer)** | ![stars](https://img.shields.io/github/stars/dream-num/univer?style=flat-square&label=%E2%98%85&color=gold) | [#8217](https://github.com/dream-num/univer/pull/8217) | [![open](https://img.shields.io/github/issues-search?query=repo%3Adream-num/univer%20is%3Apr%20is%3Aopen%20author%3ADavmunrey&label=open&color=blue&style=flat-square)](https://github.com/search?type=pullrequests&q=repo%3Adream-num/univer%20is%3Apr%20is%3Aopen%20author%3ADavmunrey) | Excel parity: formulas, filters, sorting, validation, conditional formatting |
+| **[gstack](https://github.com/garrytan/gstack)** | ![stars](https://img.shields.io/github/stars/garrytan/gstack?style=flat-square&label=%E2%98%85&color=gold) | [#4394](https://github.com/garrytan/gstack/pull/4394) | [![open](https://img.shields.io/github/issues-search?query=repo%3Agarrytan/gstack%20is%3Apr%20is%3Aopen%20author%3ADavmunrey&label=open&color=blue&style=flat-square)](https://github.com/search?type=pullrequests&q=repo%3Agarrytan/gstack%20is%3Apr%20is%3Aopen%20author%3ADavmunrey) | Docs link check, issue links |
+| **[Prowler](https://github.com/prowler-cloud/prowler)** | ![stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=flat-square&label=%E2%98%85&color=gold) | | Proposed: [#13387](https://github.com/prowler-cloud/prowler/issues/13387) | ENS RD 311/2022 for Microsoft 365 |
 
-**[Trazum](https://github.com/Davmunrey/Trazum)** prices AI agent and API usage locally, per call, and ranks what to change. Agents ask its MCP `spend_guard` before they spend.<br>
-<sub>`@trazum/cli` 2.7.7 on npm · MIT · zero runtime dependencies · TypeScript, MCP</sub>
+## Rules I build by
 
-**[Propel](https://propeltech.io)** is an AI-native CRM for outbound sales teams: Gmail threads, pipelines, sequences and AI in one workspace.<br>
-<sub>Live at propeltech.io · private repository</sub>
+Each one is a written project rule in one of my repositories.
 
-**[Axis](https://github.com/Davmunrey/Heartcheck)** is an ECG decision-support copilot: from a photo or a 12-lead signal to a structured read.<br>
-<sub>R&D · PyTorch CNN-1D on PTB-XL diagnostic classes · FastAPI, OpenCV, Flutter</sub>
+| Rule | Means |
+|---|---|
+| **Wired or it doesn't ship** | No delivered screen runs on mock data |
+| **Fail closed** | A failed read is an error, not an empty list; permissions default to deny |
+| **Paid money doesn't move** | A settled payout in AEP Tarima freezes its amount and the referee's seat |
+| **Estimates are not outcomes** | Trazum keeps projected savings apart from measured ones; `verify` checks a plan against later usage |
+| **One owner per fact** | Design tokens, copy, data and secrets each live in exactly one place |
 
-**[Zolts](https://github.com/Davmunrey/Zolts)** is a GTM operating system: signals become decisions, plays and revenue, measured against holdouts.<br>
-<sub>In build · 10 company blueprints · Python 3.11, FastAPI, Postgres, Claude agents</sub>
+## Work with me
 
-**Atesta** keeps Spanish SMEs continuously ready for ENS and NIS2 audits: it connects to Microsoft 365 or Google Workspace read-only, scans daily and builds an auditor-ready evidence pack. ISO 27001, GDPR, DORA and SOC 2 follow as framework packs.<br>
-<sub>In build · private repository</sub>
-
-## Technical rules
-
-Each one is written into one of my repositories as a project rule.
-
-1. **Wired or it doesn't ship.** No delivered screen runs on mock data.
-2. **Fail closed.** A failed read is an error, not an empty list. Permissions default to deny.
-3. **Paid money doesn't move.** A settled payout in AEP Tarima freezes its amount and the referee's seat.
-4. **Estimates are not outcomes.** Trazum keeps projected savings apart from measured ones, and `verify` checks a plan against later usage.
-5. **One owner per fact.** Design tokens, copy, data and secrets each live in exactly one place.
-
-## Contributing upstream
-
-Fixes I send to other people's projects, held to their own review and CI. Merged means it landed; the rest is in review.
-
-- **[REA: Reverse Engineer Anything](https://github.com/morluto/rea)** [![GitHub stars](https://img.shields.io/github/stars/morluto/rea?style=flat&color=gold)](https://github.com/morluto/rea) - Merged: settle a process exit in progress before reporting the process present ([#10620](https://github.com/morluto/rea/pull/10620)), and name Ghidra's declared-seed recovery when no function covers an address ([#10623](https://github.com/morluto/rea/pull/10623)). In review: .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Ghidra, Kuna and Hopper providers, and JavaScript analysis. [All PRs](https://github.com/morluto/rea/pulls?q=is%3Apr+author%3ADavmunrey)
-- **[gstack](https://github.com/garrytan/gstack)** [![GitHub stars](https://img.shields.io/github/stars/garrytan/gstack?style=flat&color=gold)](https://github.com/garrytan/gstack) - Merged: sixteen docs links reach their section again ([#4394](https://github.com/garrytan/gstack/pull/4394)). In review: the docs link check reads code fences as CommonMark does, and gstack-issue-links names the right commit and skips review trailers. [All PRs](https://github.com/garrytan/gstack/pulls?q=is%3Apr+author%3ADavmunrey)
-- **[Univer](https://github.com/dream-num/univer)** [![GitHub stars](https://img.shields.io/github/stars/dream-num/univer?style=flat&color=gold)](https://github.com/dream-num/univer) - In review: Excel compatibility in formulas (UNICODE and UNICHAR above U+FFFF), filters (case and `~` wildcards), number validation, conditional formatting (bottom N, duplicates) and sorting. [All PRs](https://github.com/dream-num/univer/pulls?q=is%3Apr+author%3ADavmunrey)
-
-## Your door
-
-- **Investing or co-founding:** read the [Zolts plan](https://github.com/Davmunrey/Zolts), then [message me](https://www.linkedin.com/in/davmunrey).
-- **Need a system built:** open [AEP Tarima](https://aep-tarima.vercel.app) or [Propel](https://propeltech.io), the bar I build to, then [message me](https://www.linkedin.com/in/davmunrey).
-- **Writing code:** run `npx @trazum/cli bill` and [open an issue](https://github.com/Davmunrey/Trazum/issues) with what it got wrong.
-- **Hiring:** the attempts above are the CV. [LinkedIn](https://www.linkedin.com/in/davmunrey) has the rest.
+| If you are | Start here |
+|---|---|
+| Investing or co-founding | Read the [Zolts plan](https://github.com/Davmunrey/Zolts), then [message me](https://www.linkedin.com/in/davmunrey) |
+| Needing a system built | Open [AEP Tarima](https://aep-tarima.vercel.app) or [Propel](https://propeltech.io), the bar I build to, then [message me](https://www.linkedin.com/in/davmunrey) |
+| Writing code | Run `npx @trazum/cli bill` and [open an issue](https://github.com/Davmunrey/Trazum/issues) with what it got wrong |
+| Hiring | The attempts above are the CV; [LinkedIn](https://www.linkedin.com/in/davmunrey) has the rest |
 
 <details>
 <summary>Also shipped</summary>
 
-- [Proposal Engine](https://github.com/MunozRey/Proposal-Engine): proposal studio for CreditCheck with live preview, PDF, HTML and DOCX export in six languages.
+- [Proposal Engine](https://github.com/MunozRey/Proposal-Engine): proposal studio for CreditCheck with live preview and PDF, HTML and DOCX export in six languages.
 - [CreditCheck Dashboard](https://github.com/Davmunrey/CreditCheck-Dashboard): lead scoring and insights for CreditCheck.
 
 </details>
