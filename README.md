@@ -16,6 +16,8 @@ I'm **David Muñoz Rey**, a founder-engineer. I build products end to end, and I
 
 #### Recent open-source contributions
 
+- [prowler-cloud/prowler#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
+- [dream-num/univer#8243](https://github.com/dream-num/univer/pull/8243): XLOOKUP and XMATCH read `?` and `*` literally outside wildcard mode
 - [dream-num/univer#8246](https://github.com/dream-num/univer/pull/8246): EDATE and EOMONTH truncate fractional months toward zero
 - [dream-num/univer#8245](https://github.com/dream-num/univer/pull/8245): ISO.CEILING evaluates instead of returning `#NAME?`
 - [dream-num/univer#8232](https://github.com/dream-num/univer/pull/8232): SEARCH and SEARCHB read `?` and `*` as wildcards
