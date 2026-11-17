@@ -6,11 +6,11 @@ I'm **David Muñoz Rey**, a founder-engineer. I build products end to end, and I
 
 - 🛠️ **Building [Trazum](https://github.com/Davmunrey/Trazum)**: an open-source CLI and MCP server that prices AI agent and API usage locally, per call
 - 📈 **Building [Propel](https://propeltech.io)**: an AI-native CRM for outbound sales
-- 🔓 **Contributing to open source**: [Univer](https://github.com/dream-num/univer), [REA](https://github.com/morluto/rea), [gstack](https://github.com/garrytan/gstack) and [Prowler](https://github.com/prowler-cloud/prowler)
+- 🔓 **Contributing to open source**: [Prowler](https://github.com/prowler-cloud/prowler), [Univer](https://github.com/dream-num/univer), [REA](https://github.com/morluto/rea) and [gstack](https://github.com/garrytan/gstack)
 
 #### Current focus
 
-- ENS (RD 311/2022) compliance for Microsoft 365 in Prowler
+- ENS (RD 311/2022) in Prowler: Microsoft 365 is merged; SharePoint, Exchange and Teams come next
 - Knowing what AI agents cost before the invoice arrives
 - Excel parity in Univer: formulas, sorting, filters, validation
 
@@ -18,9 +18,9 @@ I'm **David Muñoz Rey**, a founder-engineer. I build products end to end, and I
 
 - [prowler-cloud/prowler#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
 - [dream-num/univer#8243](https://github.com/dream-num/univer/pull/8243): XLOOKUP and XMATCH read `?` and `*` literally outside wildcard mode
-- [dream-num/univer#8246](https://github.com/dream-num/univer/pull/8246): EDATE and EOMONTH truncate fractional months toward zero
-- [dream-num/univer#8245](https://github.com/dream-num/univer/pull/8245): ISO.CEILING evaluates instead of returning `#NAME?`
 - [dream-num/univer#8232](https://github.com/dream-num/univer/pull/8232): SEARCH and SEARCHB read `?` and `*` as wildcards
+- [dream-num/univer#8245](https://github.com/dream-num/univer/pull/8245): ISO.CEILING evaluates instead of returning `#NAME?`
+- [dream-num/univer#8246](https://github.com/dream-num/univer/pull/8246): EDATE and EOMONTH truncate fractional months toward zero
 - [garrytan/gstack#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
 - [morluto/rea#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 
