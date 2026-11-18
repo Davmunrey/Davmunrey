@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm **David Muñoz Rey**, a founder-engineer. I build products end to end, and I fix bugs in the open-source projects I rely on.
+I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build products end to end, and I fix bugs in the open-source projects I rely on.
 
 #### What I do
 
@@ -14,6 +14,7 @@ I'm **David Muñoz Rey**, a founder-engineer. I build products end to end, and I
 - ENS (RD 311/2022) in Prowler: Microsoft 365 is merged; SharePoint, Exchange and Teams are in review, along with catalog fixes for AWS, Azure and GCP
 - Knowing what AI agents cost before the invoice arrives
 - Excel parity in Univer: formulas, sorting, filters, validation
+- Reverse engineering in REA, and its Spanish website
 
 #### Open-source contributions
 
@@ -22,7 +23,7 @@ Merged upstream, newest first within each project.
 **[Prowler](https://github.com/prowler-cloud/prowler)**
 - [#13402](https://github.com/prowler-cloud/prowler/pull/13402): compliance CSVs list each manual requirement once, however many batches the findings arrive in
 - [#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
-- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS requirements for SharePoint, Exchange and Teams, catalog fixes for AWS, Azure and GCP, the ENS PDF report, and the compliance page of the local dashboard
+- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS requirements for SharePoint, Exchange and Teams, the alignment of ENS for Microsoft 365 with the May 2024 edition of CCN-STIC-885A, catalog fixes for AWS, Azure and GCP, the ENS PDF report, and the compliance page of the local dashboard
 
 **[Univer](https://github.com/dream-num/univer)**
 - [#8302](https://github.com/dream-num/univer/pull/8302): EUROCONVERT converts between the euro and its legacy currencies instead of returning `#NAME?`
@@ -37,7 +38,9 @@ Merged upstream, newest first within each project.
 - [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): AMORDEGRC, locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
+- [#12103](https://github.com/morluto/rea/pull/12103): review the Spanish guides, case studies and blog
 - [#12092](https://github.com/morluto/rea/pull/12092): complete the Spanish edition of the website, 63 untranslated messages
+- [#10686](https://github.com/morluto/rea/pull/10686): Kuna stops calling data sections in executable segments definite data
 - [#12089](https://github.com/morluto/rea/pull/12089): classify 64-bit PowerPC ELF files in the PowerPC family, so providers decline them by name
 - [#12091](https://github.com/morluto/rea/pull/12091): cleanup tests count a killed descendant that awaits reaping as stopped
 - [#12082](https://github.com/morluto/rea/pull/12082): read the Authenticode signatures of dual-signed Windows binaries
@@ -46,7 +49,7 @@ Merged upstream, newest first within each project.
 - [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
 - [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 - [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
-- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, a full review of the Spanish website, and fixes across Ghidra, JavaScript and the Inspector
+- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, a review of the Spanish onboarding pages, a Hindi edition of the README, and fixes across Ghidra, JavaScript and the Inspector
 
 **[gstack](https://github.com/garrytan/gstack)**
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
