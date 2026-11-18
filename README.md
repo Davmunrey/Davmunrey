@@ -22,7 +22,7 @@ Merged upstream, newest first within each project.
 **[Prowler](https://github.com/prowler-cloud/prowler)**
 - [#13402](https://github.com/prowler-cloud/prowler/pull/13402): compliance CSVs list each manual requirement once, however many batches the findings arrive in
 - [#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
-- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS requirements for SharePoint, Exchange and Teams, catalog fixes for AWS, Azure and GCP, and the ENS PDF report
+- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS requirements for SharePoint, Exchange and Teams, catalog fixes for AWS, Azure and GCP, the ENS PDF report, and the compliance page of the local dashboard
 
 **[Univer](https://github.com/dream-num/univer)**
 - [#8302](https://github.com/dream-num/univer/pull/8302): EUROCONVERT converts between the euro and its legacy currencies instead of returning `#NAME?`
@@ -34,12 +34,13 @@ Merged upstream, newest first within each project.
 - [#8216](https://github.com/dream-num/univer/pull/8216): bottom N conditional formatting highlights every number when N exceeds the count
 - [#8215](https://github.com/dream-num/univer/pull/8215): number validation reads only decimal numeric text as a number
 - [#8217](https://github.com/dream-num/univer/pull/8217): duplicate and unique value rules compare text case-insensitively
-- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
+- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): AMORDEGRC, locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
+- [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
 - [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 - [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
-- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, and fixes across Ghidra, Android, JavaScript and the Inspector
+- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, and fixes across Ghidra, JavaScript and the Inspector
 
 **[gstack](https://github.com/garrytan/gstack)**
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
