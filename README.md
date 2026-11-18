@@ -37,6 +37,8 @@ Merged upstream, newest first within each project.
 - [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): AMORDEGRC, locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
+- [#10683](https://github.com/morluto/rea/pull/10683): name the unsupported Thumb mode when a raw ARM entry address is odd
+- [#10663](https://github.com/morluto/rea/pull/10663): Inspector tests spell Node discovery targets the way Node reports them
 - [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
 - [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 - [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
