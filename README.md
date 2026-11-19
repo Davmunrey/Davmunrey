@@ -11,7 +11,7 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 
 #### Current focus
 
-- ENS (RD 311/2022) in Prowler: Microsoft 365 with SharePoint, Exchange and Teams, and catalog fixes for AWS, Azure and GCP, all merged
+- ENS (RD 311/2022) in Prowler: Microsoft 365 with SharePoint, Exchange and Teams is merged; AWS, Azure and GCP are in review, aligned with their CCN-STIC guides
 - Knowing what AI agents cost before the invoice arrives
 - Excel parity in Univer: formulas, sorting, filters, validation
 - Reverse engineering in REA, and its Spanish website
@@ -28,6 +28,7 @@ Merged upstream, newest first within each project.
 - [#13430](https://github.com/prowler-cloud/prowler/pull/13430): the local dashboard's compliance sections stay visible without Dash's dev tools
 - [#13402](https://github.com/prowler-cloud/prowler/pull/13402): compliance CSVs list each manual requirement once, however many batches the findings arrive in
 - [#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
+- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS for AWS, GCP and Azure aligned with the CCN-STIC-887A, 888B and 884A guides
 
 **[Univer](https://github.com/dream-num/univer)**
 - [#8237](https://github.com/dream-num/univer/pull/8237): conditional formatting text rules compare case-insensitively, Greek final sigma included
@@ -59,7 +60,7 @@ Merged upstream, newest first within each project.
 - [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
 - [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 - [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
-- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, a Hindi edition of the README, and fixes across Ghidra, JavaScript and the Inspector
+- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, a Hindi edition of the README, and fixes across Ghidra, JavaScript, Apple bundles, the Inspector, macOS setup and tests
 
 **[gstack](https://github.com/garrytan/gstack)**
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
