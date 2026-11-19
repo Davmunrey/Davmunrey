@@ -38,6 +38,7 @@ Merged upstream, newest first within each project.
 - [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): AMORDEGRC, locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
+- [#10681](https://github.com/morluto/rea/pull/10681): queue JavaScript binding initializers once per ambient alias
 - [#12104](https://github.com/morluto/rea/pull/12104): fix two Spanish strings flagged in review
 - [#12103](https://github.com/morluto/rea/pull/12103): review the Spanish guides, case studies and blog
 - [#12092](https://github.com/morluto/rea/pull/12092): complete the Spanish edition of the website, 63 untranslated messages
