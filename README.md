@@ -30,6 +30,8 @@ Merged upstream, newest first within each project.
 - [#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
 
 **[Univer](https://github.com/dream-num/univer)**
+- [#8237](https://github.com/dream-num/univer/pull/8237): conditional formatting text rules compare case-insensitively, Greek final sigma included
+- [#8233](https://github.com/dream-num/univer/pull/8233): TRIM removes only the space character, as Excel does
 - [#8312](https://github.com/dream-num/univer/pull/8312): AMORDEGRC evaluates as Excel does, checked against 23,042 results computed in Excel
 - [#8238](https://github.com/dream-num/univer/pull/8238): list validation accepts entries that differ from an option only in case
 - [#8302](https://github.com/dream-num/univer/pull/8302): EUROCONVERT converts between the euro and its legacy currencies instead of returning `#NAME?`
@@ -41,7 +43,7 @@ Merged upstream, newest first within each project.
 - [#8216](https://github.com/dream-num/univer/pull/8216): bottom N conditional formatting highlights every number when N exceeds the count
 - [#8215](https://github.com/dream-num/univer/pull/8215): number validation reads only decimal numeric text as a number
 - [#8217](https://github.com/dream-num/univer/pull/8217): duplicate and unique value rules compare text case-insensitively
-- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): locale-aware sorting, case-insensitive text in filters and conditional formatting, TRIM, and wildcard escapes
+- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): locale-aware sorting, case-insensitive text in filters, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
 - [#10681](https://github.com/morluto/rea/pull/10681): queue JavaScript binding initializers once per ambient alias
