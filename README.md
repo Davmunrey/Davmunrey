@@ -11,7 +11,7 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 
 #### Current focus
 
-- ENS (RD 311/2022) in Prowler: Microsoft 365 is merged; SharePoint, Exchange and Teams are in review, along with catalog fixes for AWS, Azure and GCP
+- ENS (RD 311/2022) in Prowler: Microsoft 365 with SharePoint, Exchange and Teams, and catalog fixes for AWS, Azure and GCP, all merged
 - Knowing what AI agents cost before the invoice arrives
 - Excel parity in Univer: formulas, sorting, filters, validation
 - Reverse engineering in REA, and its Spanish website
@@ -21,11 +21,17 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 Merged upstream, newest first within each project.
 
 **[Prowler](https://github.com/prowler-cloud/prowler)**
+- [#13408](https://github.com/prowler-cloud/prowler/pull/13408), [#13411](https://github.com/prowler-cloud/prowler/pull/13411), [#13409](https://github.com/prowler-cloud/prowler/pull/13409): ENS for Microsoft 365 adds the SharePoint Online, Exchange Online and Teams requirements of CCN-STIC-885B, 885C and 885D
+- [#13413](https://github.com/prowler-cloud/prowler/pull/13413): ENS for Microsoft 365 follows the May 2024 edition of CCN-STIC-885A
+- [#13417](https://github.com/prowler-cloud/prowler/pull/13417), [#13419](https://github.com/prowler-cloud/prowler/pull/13419), [#13421](https://github.com/prowler-cloud/prowler/pull/13421): correct execution modes, groups, categories and requirement ids in ENS for AWS, Azure and GCP
+- [#13423](https://github.com/prowler-cloud/prowler/pull/13423): the ENS PDF report colours the execution mode badge of automated requirements
+- [#13430](https://github.com/prowler-cloud/prowler/pull/13430): the local dashboard's compliance sections stay visible without Dash's dev tools
 - [#13402](https://github.com/prowler-cloud/prowler/pull/13402): compliance CSVs list each manual requirement once, however many batches the findings arrive in
 - [#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
-- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS requirements for SharePoint, Exchange and Teams, the alignment of ENS for Microsoft 365 with the May 2024 edition of CCN-STIC-885A, catalog fixes for AWS, Azure and GCP, the ENS PDF report, and the compliance page of the local dashboard
 
 **[Univer](https://github.com/dream-num/univer)**
+- [#8312](https://github.com/dream-num/univer/pull/8312): AMORDEGRC evaluates as Excel does, checked against 23,042 results computed in Excel
+- [#8238](https://github.com/dream-num/univer/pull/8238): list validation accepts entries that differ from an option only in case
 - [#8302](https://github.com/dream-num/univer/pull/8302): EUROCONVERT converts between the euro and its legacy currencies instead of returning `#NAME?`
 - [#8243](https://github.com/dream-num/univer/pull/8243): XLOOKUP and XMATCH read `?` and `*` literally outside wildcard mode
 - [#8232](https://github.com/dream-num/univer/pull/8232): SEARCH and SEARCHB read `?` and `*` as wildcards
@@ -35,7 +41,7 @@ Merged upstream, newest first within each project.
 - [#8216](https://github.com/dream-num/univer/pull/8216): bottom N conditional formatting highlights every number when N exceeds the count
 - [#8215](https://github.com/dream-num/univer/pull/8215): number validation reads only decimal numeric text as a number
 - [#8217](https://github.com/dream-num/univer/pull/8217): duplicate and unique value rules compare text case-insensitively
-- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): AMORDEGRC, locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
+- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): locale-aware sorting, case-insensitive text in filters and conditional formatting, TRIM, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
 - [#10681](https://github.com/morluto/rea/pull/10681): queue JavaScript binding initializers once per ambient alias
