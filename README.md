@@ -38,6 +38,7 @@ Merged upstream, newest first within each project.
 - [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): AMORDEGRC, locale-aware sorting, case-insensitive text in filters, validation lists and conditional formatting, TRIM, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
+- [#12104](https://github.com/morluto/rea/pull/12104): fix two Spanish strings flagged in review
 - [#12103](https://github.com/morluto/rea/pull/12103): review the Spanish guides, case studies and blog
 - [#12092](https://github.com/morluto/rea/pull/12092): complete the Spanish edition of the website, 63 untranslated messages
 - [#10686](https://github.com/morluto/rea/pull/10686): Kuna stops calling data sections in executable segments definite data
@@ -49,7 +50,7 @@ Merged upstream, newest first within each project.
 - [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
 - [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 - [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
-- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, a review of the Spanish onboarding pages, a Hindi edition of the README, and fixes across Ghidra, JavaScript and the Inspector
+- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, NES 2.0 headers, Expo Router routes, a Hindi edition of the README, and fixes across Ghidra, JavaScript and the Inspector
 
 **[gstack](https://github.com/garrytan/gstack)**
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
