@@ -7,7 +7,7 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 - 🛠️ **Building [Trazum](https://github.com/Davmunrey/Trazum)**: an open-source CLI and MCP server that prices AI agent and API usage locally, per call
 - 📈 **Building [Propel](https://propeltech.io)**: an AI-native CRM for outbound sales
 - 🏋️ **Running [AEP Tarima](https://aep-tarima.vercel.app)**: the platform the Spanish Powerlifting Association's referees work in: championships, rosters, payouts, rules and exams ([source](https://github.com/Davmunrey/AEP-Referee-APP))
-- 🔓 **Contributing to open source**: [Prowler](https://github.com/prowler-cloud/prowler), [Univer](https://github.com/dream-num/univer), [REA](https://github.com/morluto/rea) and [gstack](https://github.com/garrytan/gstack)
+- 🔓 **Contributing to open source**: [Prowler](https://github.com/prowler-cloud/prowler), [Univer](https://github.com/dream-num/univer), [REA](https://github.com/morluto/rea), [gstack](https://github.com/garrytan/gstack) and [Plane](https://github.com/makeplane/plane)
 
 #### Current focus
 
@@ -67,6 +67,10 @@ Merged upstream, newest first within each project.
 **[gstack](https://github.com/garrytan/gstack)**
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
 - [In review](https://github.com/garrytan/gstack/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): issue-link fixes and code-fence handling in the docs link check
+
+**[Plane](https://github.com/makeplane/plane)**
+- [#10355](https://github.com/makeplane/plane/pull/10355): the settings sidebar headings and "Completed on" read in 16 more languages instead of English
+- [In review](https://github.com/makeplane/plane/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): the Sticky brand mark in Spanish, French, Italian and Portuguese
 
 [All merged](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) · [In review](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) · [Issues reported](https://github.com/search?type=issues&q=is%3Aissue%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey)
 
