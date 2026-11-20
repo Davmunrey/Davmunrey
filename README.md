@@ -70,7 +70,7 @@ Merged upstream, newest first within each project.
 
 **[Plane](https://github.com/makeplane/plane)**
 - [#10355](https://github.com/makeplane/plane/pull/10355): the settings sidebar headings and "Completed on" read in 16 more languages instead of English
-- [In review](https://github.com/makeplane/plane/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): the Sticky brand mark in Spanish, French, Italian and Portuguese
+- [In review](https://github.com/makeplane/plane/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): the Sticky brand mark in Spanish, French, Italian and Portuguese, and GitLab spelled as GitLab in every language
 
 [All merged](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) · [In review](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) · [Issues reported](https://github.com/search?type=issues&q=is%3Aissue%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey)
 
