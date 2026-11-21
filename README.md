@@ -47,6 +47,9 @@ Merged upstream, newest first within each project.
 - [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): locale-aware sorting, case-insensitive text in filters, and wildcard escapes
 
 **[REA](https://github.com/morluto/rea)**
+- [#10684](https://github.com/morluto/rea/pull/10684): Ghidra byte-search pages say their match metadata is read live
+- [#10682](https://github.com/morluto/rea/pull/10682): name the code-seed recovery when an address lies outside Ghidra's listing
+- [#10678](https://github.com/morluto/rea/pull/10678): resolve literal spreads and const aliases in JavaScript kill signals
 - [#12517](https://github.com/morluto/rea/pull/12517): open 64-bit PowerPC (ELFv2) executables in Ghidra through a lane pinned to Power ISA 3.0
 - [#10674](https://github.com/morluto/rea/pull/10674): inspect the headers and regions of NES 2.0 containers
 - [#10681](https://github.com/morluto/rea/pull/10681): queue JavaScript binding initializers once per ambient alias
@@ -62,7 +65,7 @@ Merged upstream, newest first within each project.
 - [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
 - [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
 - [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
-- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, Expo Router routes, a Hindi edition of the README, and fixes across Ghidra, JavaScript, Apple bundles, the Inspector, macOS setup and tests
+- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, Expo Router routes, a Hindi edition of the README, and fixes across Apple bundles, the Inspector, macOS setup and tests
 
 **[gstack](https://github.com/garrytan/gstack)**
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
