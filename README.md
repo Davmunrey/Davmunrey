@@ -4,7 +4,7 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 
 #### What I do
 
-- 🛠️ **Building [Trazum](https://github.com/Davmunrey/Trazum)**: an open-source CLI and MCP server that prices AI agent and API usage locally, per call
+- 🛠️ **Building [Trazum](https://github.com/TrazumAPP/Trazum)**: an open-source CLI and MCP server that prices AI agent and API usage locally, per call
 - 📈 **Building [Propel](https://propeltech.io)**: an AI-native CRM for outbound sales
 - 🏋️ **Running [AEP Tarima](https://aep-tarima.vercel.app)**: the platform the Spanish Powerlifting Association's referees work in: championships, rosters, payouts, rules and exams ([source](https://github.com/Davmunrey/AEP-Referee-APP))
 - 🔓 **Contributing to open source**: [Prowler](https://github.com/prowler-cloud/prowler), [Univer](https://github.com/dream-num/univer), [REA](https://github.com/morluto/rea), [gstack](https://github.com/garrytan/gstack) and [Plane](https://github.com/makeplane/plane)
@@ -71,15 +71,15 @@ Merged upstream, newest first within each project.
 - [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, a Hindi edition of the README, and fixes in macOS setup and tests
 
 **[gstack](https://github.com/garrytan/gstack)**
+- [#4672](https://github.com/garrytan/gstack/pull/4672) (co-author): `gstack-issue-links` labels each issue mention with the commit it comes from, first fixed in my [#4388](https://github.com/garrytan/gstack/pull/4388)
 - [#4677](https://github.com/garrytan/gstack/pull/4677) (co-author): the docs link check and prose lint read code fences as CommonMark does, from my [#4393](https://github.com/garrytan/gstack/pull/4393), and the bootstrap tests skip their ptrace cases as root, reported in [#4425](https://github.com/garrytan/gstack/issues/4425)
 - [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
-- [In review](https://github.com/garrytan/gstack/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): issue-link fixes
 
 **[Plane](https://github.com/makeplane/plane)**
 - [#10355](https://github.com/makeplane/plane/pull/10355): the settings sidebar headings and "Completed on" read in 16 more languages instead of English
 - [In review](https://github.com/makeplane/plane/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): the Sticky brand mark in Spanish, French, Italian and Portuguese, and GitLab spelled as GitLab in every language
 
-[All merged](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) · [In review](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey) · [Issues reported](https://github.com/search?type=issues&q=is%3Aissue%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey)
+[All merged](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey%20-user%3ATrazumAPP) · [In review](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey%20-user%3ATrazumAPP) · [Issues reported](https://github.com/search?type=issues&q=is%3Aissue%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey%20-user%3ATrazumAPP)
 
 <details>
 <summary>Also built</summary>
