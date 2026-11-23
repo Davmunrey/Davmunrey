@@ -4,8 +4,8 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 
 #### What I do
 
-- 🛠️ **Building [Trazum](https://github.com/TrazumAPP/Trazum)**: an open-source CLI and MCP server that prices AI agent and API usage locally, per call
-- 📈 **Building [Propel](https://propeltech.io)**: an AI-native CRM for outbound sales
+- 🛠️ **Shipping [Trazum](https://github.com/TrazumAPP/Trazum)**: an open-source CLI and MCP server, released on npm, that prices AI agent and API usage locally, per call
+- 📈 **Growing [Propel](https://propeltech.io)**: an AI-native CRM for outbound sales, already on the market
 - 🏋️ **Running [AEP Tarima](https://aep-tarima.vercel.app)**: the platform the Spanish Powerlifting Association's referees work in: championships, rosters, payouts, rules and exams ([source](https://github.com/Davmunrey/AEP-Referee-APP))
 - 🔓 **Contributing to open source**: [Prowler](https://github.com/prowler-cloud/prowler), [Univer](https://github.com/dream-num/univer), [REA](https://github.com/morluto/rea), [gstack](https://github.com/garrytan/gstack) and [Plane](https://github.com/makeplane/plane)
 
