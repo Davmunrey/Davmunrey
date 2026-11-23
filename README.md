@@ -18,66 +18,22 @@ I'm **David Muñoz Rey**, a founder-engineer based in Spain 🇪🇸. I build pr
 
 #### Open-source contributions
 
-Merged upstream, newest first within each project.
+What I've shipped upstream, project by project.
 
-**[Prowler](https://github.com/prowler-cloud/prowler)**
-- [#13408](https://github.com/prowler-cloud/prowler/pull/13408), [#13411](https://github.com/prowler-cloud/prowler/pull/13411), [#13409](https://github.com/prowler-cloud/prowler/pull/13409): ENS for Microsoft 365 adds the SharePoint Online, Exchange Online and Teams requirements of CCN-STIC-885B, 885C and 885D
-- [#13413](https://github.com/prowler-cloud/prowler/pull/13413): ENS for Microsoft 365 follows the May 2024 edition of CCN-STIC-885A
-- [#13417](https://github.com/prowler-cloud/prowler/pull/13417), [#13419](https://github.com/prowler-cloud/prowler/pull/13419), [#13421](https://github.com/prowler-cloud/prowler/pull/13421): correct execution modes, groups, categories and requirement ids in ENS for AWS, Azure and GCP
-- [#13423](https://github.com/prowler-cloud/prowler/pull/13423): the ENS PDF report colours the execution mode badge of automated requirements
-- [#13430](https://github.com/prowler-cloud/prowler/pull/13430): the local dashboard's compliance sections stay visible without Dash's dev tools
-- [#13402](https://github.com/prowler-cloud/prowler/pull/13402): compliance CSVs list each manual requirement once, however many batches the findings arrive in
-- [#13394](https://github.com/prowler-cloud/prowler/pull/13394): ENS RD 311/2022 compliance framework for Microsoft 365, with CLI, API and PDF report support
-- [In review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): ENS for AWS, GCP and Azure aligned with the CCN-STIC-887A, 888B and 884A guides, and pagination in the AWS SNS, Service Catalog and IAM services
+**[Prowler](https://github.com/prowler-cloud/prowler)** · [merged](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Amerged+author%3ADavmunrey) · [in review](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey)<br>
+Brought Spain's National Security Framework (ENS, RD 311/2022) to Microsoft 365: a new compliance framework with CLI, API and PDF report support that follows the CCN-STIC-885A guide and adds the SharePoint Online, Exchange Online and Teams requirements of 885B, 885C and 885D. Corrected requirement ids, groups and execution modes in the ENS catalogs for AWS, Azure and GCP, fixed how compliance CSVs, the ENS PDF report and the local dashboard present results, and made the AWS SNS, Service Catalog and IAM services read every page of their listings. In review: ENS for AWS, Azure and GCP aligned with their CCN-STIC guides.
 
-**[Univer](https://github.com/dream-num/univer)**
-- [#8237](https://github.com/dream-num/univer/pull/8237): conditional formatting text rules compare case-insensitively, Greek final sigma included
-- [#8233](https://github.com/dream-num/univer/pull/8233): TRIM removes only the space character, as Excel does
-- [#8312](https://github.com/dream-num/univer/pull/8312): AMORDEGRC evaluates as Excel does, checked against 23,042 results computed in Excel
-- [#8238](https://github.com/dream-num/univer/pull/8238): list validation accepts entries that differ from an option only in case
-- [#8302](https://github.com/dream-num/univer/pull/8302): EUROCONVERT converts between the euro and its legacy currencies instead of returning `#NAME?`
-- [#8243](https://github.com/dream-num/univer/pull/8243): XLOOKUP and XMATCH read `?` and `*` literally outside wildcard mode
-- [#8232](https://github.com/dream-num/univer/pull/8232): SEARCH and SEARCHB read `?` and `*` as wildcards
-- [#8245](https://github.com/dream-num/univer/pull/8245): ISO.CEILING evaluates instead of returning `#NAME?`
-- [#8246](https://github.com/dream-num/univer/pull/8246): EDATE and EOMONTH truncate fractional months toward zero
-- [#8210](https://github.com/dream-num/univer/pull/8210): UNICODE and UNICHAR read and build code points above U+FFFF
-- [#8216](https://github.com/dream-num/univer/pull/8216): bottom N conditional formatting highlights every number when N exceeds the count
-- [#8215](https://github.com/dream-num/univer/pull/8215): number validation reads only decimal numeric text as a number
-- [#8217](https://github.com/dream-num/univer/pull/8217): duplicate and unique value rules compare text case-insensitively
-- [In review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): locale-aware sorting, case-insensitive text in filters, and wildcard escapes
+**[Univer](https://github.com/dream-num/univer)** · [merged](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Amerged+author%3ADavmunrey) · [in review](https://github.com/dream-num/univer/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey)<br>
+Brought Univer's formulas and rules closer to Excel. AMORDEGRC, EUROCONVERT and ISO.CEILING now evaluate instead of returning `#NAME?`, with AMORDEGRC checked against 23,042 results computed in Excel; SEARCH, SEARCHB, XLOOKUP and XMATCH read `?` and `*` the way Excel does; and TRIM, EDATE, EOMONTH, UNICODE and UNICHAR return Excel's results. Conditional formatting and data validation compare text case-insensitively, Greek final sigma included, and handle Excel's edge cases in number validation and bottom N rules. In review: locale-aware sorting, case-insensitive filters and wildcard escapes.
 
-**[REA](https://github.com/morluto/rea)**
-- [#10624](https://github.com/morluto/rea/pull/10624): inventory the route keys an Expo Router app loads through `require.context`
-- [#10680](https://github.com/morluto/rea/pull/10680): the Inspector keeps its Node discovery path rule in one module
-- [#11392](https://github.com/morluto/rea/pull/11392): rethrow internal invariant violations while resolving an Apple bundle's program file
-- [#10678](https://github.com/morluto/rea/pull/10678): resolve literal spreads and const aliases in JavaScript kill signals
-- [#10682](https://github.com/morluto/rea/pull/10682): name the code-seed recovery when an address lies outside Ghidra's listing
-- [#10684](https://github.com/morluto/rea/pull/10684): Ghidra byte-search pages say their match metadata is read live
-- [#12517](https://github.com/morluto/rea/pull/12517): open 64-bit PowerPC (ELFv2) executables in Ghidra through a lane pinned to Power ISA 3.0
-- [#10674](https://github.com/morluto/rea/pull/10674): inspect the headers and regions of NES 2.0 containers
-- [#10681](https://github.com/morluto/rea/pull/10681): queue JavaScript binding initializers once per ambient alias
-- [#12104](https://github.com/morluto/rea/pull/12104): fix two Spanish strings flagged in review
-- [#12103](https://github.com/morluto/rea/pull/12103): review the Spanish guides, case studies and blog
-- [#12092](https://github.com/morluto/rea/pull/12092): complete the Spanish edition of the website, 63 untranslated messages
-- [#10686](https://github.com/morluto/rea/pull/10686): Kuna stops calling data sections in executable segments definite data
-- [#12089](https://github.com/morluto/rea/pull/12089): classify 64-bit PowerPC ELF files in the PowerPC family, so providers decline them by name
-- [#12091](https://github.com/morluto/rea/pull/12091): cleanup tests count a killed descendant that awaits reaping as stopped
-- [#12082](https://github.com/morluto/rea/pull/12082): read the Authenticode signatures of dual-signed Windows binaries
-- [#10683](https://github.com/morluto/rea/pull/10683): name the unsupported Thumb mode when a raw ARM entry address is odd
-- [#10663](https://github.com/morluto/rea/pull/10663): Inspector tests spell Node discovery targets the way Node reports them
-- [#10679](https://github.com/morluto/rea/pull/10679): reject Android invoke coverage that arrives without its site evidence
-- [#10620](https://github.com/morluto/rea/pull/10620): settle an observed exit before reporting a process present
-- [#10623](https://github.com/morluto/rea/pull/10623): name the declared-seed recovery when no function covers an address
-- [In review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): .NET parameter defaults, Apple bundle placement, a Hindi edition of the README, and fixes in macOS setup and tests
+**[REA](https://github.com/morluto/rea)** · [merged](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Amerged+author%3ADavmunrey) · [in review](https://github.com/morluto/rea/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey)<br>
+Widened what REA can analyze: 64-bit PowerPC executables through Ghidra, NES 2.0 ROM containers, Expo Router routes and dual-signed Windows binaries. Fixed findings across Ghidra, Kuna, Android, Apple bundles, ARM entry points, JavaScript analysis and process handling, so results say what could not be recovered instead of overstating it, and made several tests reliable. Completed and reviewed the Spanish edition of the rea.tools website. In review: .NET parameter defaults, Apple bundle placement, a Hindi README, and fixes in macOS setup and tests.
 
-**[gstack](https://github.com/garrytan/gstack)**
-- [#4672](https://github.com/garrytan/gstack/pull/4672) (co-author): `gstack-issue-links` labels each issue mention with the commit it comes from, first fixed in my [#4388](https://github.com/garrytan/gstack/pull/4388)
-- [#4677](https://github.com/garrytan/gstack/pull/4677) (co-author): the docs link check and prose lint read code fences as CommonMark does, from my [#4393](https://github.com/garrytan/gstack/pull/4393), and the bootstrap tests skip their ptrace cases as root, reported in [#4425](https://github.com/garrytan/gstack/issues/4425)
-- [#4394](https://github.com/garrytan/gstack/pull/4394): sixteen documentation links reach their section again
+**[gstack](https://github.com/garrytan/gstack)** · [merged](https://github.com/garrytan/gstack/pulls?q=is%3Apr+is%3Amerged+author%3ADavmunrey) · co-authored [#4677](https://github.com/garrytan/gstack/pull/4677) and [#4672](https://github.com/garrytan/gstack/pull/4672)<br>
+Fixed sixteen documentation links that pointed to missing sections. The maintainer batches that landed my other fixes credit me as co-author: the docs link check reads code fences as CommonMark does, the bootstrap tests pass when run as root, and `gstack-issue-links` labels each issue mention with the commit it comes from.
 
-**[Plane](https://github.com/makeplane/plane)**
-- [#10355](https://github.com/makeplane/plane/pull/10355): the settings sidebar headings and "Completed on" read in 16 more languages instead of English
-- [In review](https://github.com/makeplane/plane/pulls?q=is%3Apr+is%3Aopen+author%3ADavmunrey): the Sticky brand mark in Spanish, French, Italian and Portuguese, and GitLab spelled as GitLab in every language
+**[Plane](https://github.com/makeplane/plane)** · [merged](https://github.com/makeplane/plane/pulls?q=is%3Apr+is%3Amerged+author%3ADavmunrey)<br>
+Improved Plane's translations: the settings sidebar headings now read in 16 more languages, the Sticky brand mark stays untranslated in Spanish, French, Italian and Portuguese, and GitLab and plane.so are spelled correctly in every locale. I also reported that the Spanish interface mixed *tú* and *usted*; the maintainers' fix, which includes my commit for the last 19 strings, is in review.
 
 [All merged](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Amerged%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey%20-user%3ATrazumAPP) · [In review](https://github.com/search?type=pullrequests&q=is%3Apr%20is%3Aopen%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey%20-user%3ATrazumAPP) · [Issues reported](https://github.com/search?type=issues&q=is%3Aissue%20author%3ADavmunrey%20-user%3ADavmunrey%20-user%3AMunozRey%20-user%3ATrazumAPP)
 
